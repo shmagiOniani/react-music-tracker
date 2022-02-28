@@ -1,0 +1,5 @@
+export {default as ForwardPlayer}from "./Icons/forward-player.svg"
+export {default as ListPlayer}from "./Icons/list-player.svg"
+export {default as PausePlayer}from "./Icons/pause-player.svg"
+export {default as PlayPlayer}from "./Icons/play-player.svg"
+export {default as StopPlayer}from "./Icons/stop-player.svg"

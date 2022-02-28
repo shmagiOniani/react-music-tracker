@@ -1,10 +1,10 @@
-import "./styles.css";
+import "./App.scss";
+import {Player, AboutUs} from "./Pages"
 
 export default function App() {
   return (
-    <div className="App">
-      <h1>Hello CodeSandbox</h1>
-      <h2>Start editing to see some magic happen!</h2>
+    <div className="app d-flex justify-content-center align-items-center">
+      <Player/>
     </div>
   );
 }

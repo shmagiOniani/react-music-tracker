@@ -1,0 +1,35 @@
+.audio {
+  width: 350px;
+  height: 100vh;
+  background-image: linear-gradient(180deg, #33383d, #191a1e);
+}
+
+// .audio::-webkit-media-controls {
+//   background-color: rgb(255, 166, 0);
+// }
+.audio::-webkit-media-controls-overlay-enclosure {
+  background-color: red;
+}
+.audio::-webkit-media-controls-enclosure {
+  background-color: rgb(0, 81, 255);
+}
+.audio::-webkit-media-controls-panel {
+  background-color: rgb(223, 226, 0);
+}
+.audio::-webkit-media-controls-play-button {
+  background-color: rgb(121, 27, 86);
+}
+.audio::-webkit-media-controls-timeline {
+  background-color: rgb(77, 81, 95);
+  fill: red;
+}
+.audio::-webkit-media-controls-track {
+  background-color: rgb(31, 7, 186);
+}
+// -webkit-media-controls
+// -webkit-media-controls-overlay-enclosure
+// -webkit-media-controls-enclosure
+// -webkit-media-controls-panel
+// -webkit-media-controls-play-button
+// -webkit-media-controls-timeline
+// -webkit-slider-runnable-track
